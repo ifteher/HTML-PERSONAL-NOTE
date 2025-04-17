@@ -1,0 +1,152 @@
+HTML-4:
+
+italic:<i></i>tag,
+bold:<b></b>tag.
+text underline korte:<u></u>
+
+HTML-5:
+italic:<em></em> tag.
+bold:<strong></strong> tag.
+Text Highlight: <mark></mark> tag.
+text choto korte: <small></small>
+text  delete korte:<del></del> or <strick></strick>
+text underline korte:<ins></ins>
+Text ke blog o quotesion akare likhte:<blockquote></blockquote>
+short quotesion er jonno:<q></q>
+kew jokon kono abbreviation e click kore tar full form dekhabe emon korte cay,tahole tar upor click korle i hobe: <abbr title="HyperTextMarkupLanguage>HTML</abbr>
+
+Address dekhate: <address>wonderful house,
+Mirpur,dhaka-1200</address>
+
+HTML e Comment korte: <!--        -->
+HTML Color korte:
+<h1 style="color:#ff0000;">ZAYED</h1>                <!-- #ff0000:eta red Hex color code -->
+Or,
+<h1 style="color:rgb(255,0,0);"> ZAYED </h1> <!-- rgb(255,0,0); :Eta red er rgb colorcode-->
+
+Boarder color:
+<h1 style="border: 2px solid rgb(233,226,205);"> ZAYED </h1>  
+
+page er tilte site e dekhate: title ja likhben tai dekhabe. <title>ZAYEDS WEB</title>
+
+lekhar font size boro korte:
+<style>
+h1
+{
+font-size:100px;
+} 
+</style>
+
+* page e link set korte ja click korle oi page e web e niye jabe:
+<a href="http://www.google.com/">Google</a>
+*jodi ami cai noton arekta tab open hoye noton website e jak,tahole:
+<a href="http://www.google.com/"target="_blank">Google</a>
+tokon ei Google lekhar niche underline dekhabe, eta ke dekhanor jonno:text-decoration:underline dewa jay,
+underline chara Google lekhati page e show korte:text-decoration:none ditee hobe.
+
+*PNG image e:kono logo r background takena,background chara add kora jabe,
+*JPG image e:kono logo add korle kothaw tar attached background shoho add hoye jabe.
+*gif image e:akta image ke animatory akare dekhabe.
+Image add korar tag:<img src"google.jpg"alt="google logo"> ekhane src te image file er name likhte hobe,r 'alt'Attribute e sei image somporke otirikto information ta dewa thakee.
+
+#Fevicon in HTML:eita add korle noton open howa web page e href e je image ta takbe seta title er pashe show korbe icon er moto.eta joss akta design.
+<link rel="icon"type="image/x-icon"href="google.png">
+
+#table make in HTML:
+<table>
+<tr> ...table row,
+<th>Name</th> ...table heading. 
+<th>Language</th>
+<th>Year</th>
+</tr>
+</table>
+table styling:
+table{
+font-family:"Courier New",Courier,nonospace;
+border-collapse:collapse; ...eta dilee table er protiti column er bordar aladavave na dekhiye aksathe draw kora akta table er moto kore dekhabe.
+
+#list in HTML:
+
+1)<ul>:eti dara unordered list bujay.(circular,triangular,rectangular,square,disc,none....)
+ex:
+ul{
+list-style-type:square;
+}...eti dile icon golo square shape hobe.
+
+2)<ol>:eti dara ordered list bojay.(1,2,3....)
+ex:
+<ol type="1"
+<li>HTML</li>
+<li>CSS</li>
+<li>JS</li> egolo 1,2,3....evave dekhabe.
+
+#Block element and Inline Block element:
+*Block element holo:h1 tags and paragrap(<p>)tag,<address>,<aside>,<div>,<dl>,<dt>,<table>,<ul>,<vedio> etc.jara kono text borabor er proyojon er bairee o poraline ta block/box kore felbe.
+
+*Inline element holo:<span>,<strong> tags,<i>,<img>,<b>,<button>,<sub>,<sup>,<em> etc.jara kono text borabor er proyojon jototoko sudu oitoko block/box korbe.
+
+ol{
+}
+h1,
+p,
+span,
+strong{
+border:1px solid re;
+}
+***'Nu HTML Checker'website e kono HTML code e error ache kina seta check kora jay,copy past koree.
+
+#HTML CLASS & HTML ID:
+(akoi name doita id hote parbe na, id name e space takte parben na,underscore/hypen takte pare.kinto akadik class takte paree)Id select korar jonno amra dibo hash(#),r class select korar jonno amra dibo dot(.)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        HTML CLASS & HTML ID
+    </title>
+</head>
+<body>
+#title{
+background:red;
+color:#fff
+padding:10px.
+.title{
+font-family:"courier New",courier,nonospace;
+}
+.font-size{
+font-size:20px;
+}   <!..title class doijaigai thakai font family doijaigai i change hoyeche..>
+</body>
+</html>
+
+#Iframe in HTML:
+ja google map and youtube dekhate caile use hoy.
+*News link er iframe tag:
+
+<iframe src="https://www.protomalo.com/"width="600" height="600"></iframe>
+
+** Youtube vedio er iframe tag:
+
+<iframe width="300" height="200" src="https://www.youtube.com/embed/u31qwQUeGuM"title="placeholder video"frameborder="0"allow="accelerometer;autoplay;
+clipboard-write;encrypted-media;gyroscope;picture-in-picture"allowfullscreen></iframe>
+
+** Google Map link er iframe tag:
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58403.623580890235!2d90.32726108274684!3d23.810544423860303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13."width="300"height="200"style="border:0;"allowfullscreen=""loading="lazy"referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+#JAVASCRIPT IN HTML:
+<script>
+alert("Hi! JavaScript"); ...erokom akta alert asbe.
+</script> tag er bitor apni javascript use korte parben.
+
+#File paths in HTML:
+<img src="img/google.jpg" alt="">
+or
+<scipt src="js/app.js"></script>
+
+ak file theke arek file er jinis use korte agee ber hote hobe,tar jonno dite (../),tar por ak file theke bairer arek file er jinis use kora jabe.
+
+<img src="../googles.gif"alt="">
+
+#HTML HEAD:
+
